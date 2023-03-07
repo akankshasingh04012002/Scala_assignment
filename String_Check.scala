@@ -1,29 +1,26 @@
 object String_Check {
-  def isInteger(string: String): Boolean = {
-//    val length = string.length
-    var flag = false
-    for(index<- 0 until string.length) {
+  def isInteger(string: String): Boolean =
+  {
 
-      if(string.charAt(index)=='1'.toInt||string.charAt(index)=='2'.toInt||string.charAt(index)=='3'.toInt||string.charAt(index)=='4'.toInt||string.charAt(index)=='5'.toInt||string.charAt(index)=='6'.toInt||string.charAt(index)=='7'.toInt||string.charAt(index)=='8'.toInt||string.charAt(index)=='9'.toInt||string.charAt(index)=='0'.toInt)
-        {
-          flag = true
-          return flag
-        }
+    var flag = false
+    for (index <- 0 until string.length)
+    {
+
+      if (string(index) == '1' || string(index) == '2' || string(index) == '3' || string(index) == '4' || string(index) == '5' || string(index) == '6' || string(index) == '7' || string(index) == '8' || string(index) == '9' || string(index) == '0') {
+        flag = true
+
+      }
       else
-        return false
+        flag= false
     }
-  return flag
+     flag
 
   }
 
 
   def main(args: Array[String]): Unit = {
     val inputString = scala.io.StdIn.readLine("Enter a string : ")
-    if (isInteger(inputString)) {
-      print("yes")
-    }
-    else
-      print("no")
+    println(isInteger(inputString))
 
   }
 }
