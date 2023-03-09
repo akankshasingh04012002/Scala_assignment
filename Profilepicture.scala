@@ -1,6 +1,6 @@
 object Profilepicture {
   def main(args: Array[String]): Unit = {
-    def dimentioncheck(width: Int, height: Int, length: Int): String = {
+    def dimentionCheck(width: Int, height: Int, length: Int): String = {
       if (width < length || height < length) {
         "UPLOAD ANOTHER"
       } else if (width == height) {
@@ -16,7 +16,7 @@ object Profilepicture {
       val width = scala.io.StdIn.readInt()
       println("Enter the height:")
       val height = scala.io.StdIn.readInt()
-      println(dimentioncheck(width, height, length))
+      println(dimentionCheck(width, height, length))
     }
     catch {
       case e: NumberFormatException => println("Exception caught")
