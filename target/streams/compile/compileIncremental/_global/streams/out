@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 22 products, 11 sources, 1 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/Sum.scala, ${BASE}/Time.scala, ${BASE}/Toggle.scala, ${BASE}/ElectricityBillCalculator.scala, ${BASE}/Count_Divisors.scala, ${BASE}/PalindromeCheck.scala, ${BASE}/Profilepicture.scala, ${BASE}/AnonymousObject.scala, ${BASE}/ArrayProduct.scala, ${BASE}/Difference.scala, ${BASE}/String_Check.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m

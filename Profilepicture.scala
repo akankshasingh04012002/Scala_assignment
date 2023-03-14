@@ -1,5 +1,6 @@
 object Profilepicture {
   def main(args: Array[String]): Unit = {
+
     def dimentionCheck(width: Int, height: Int, length: Int): String = {
       if (width < length || height < length) {
         "UPLOAD ANOTHER"
